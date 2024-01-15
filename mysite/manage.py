@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 """Django's command-line utility for administrative tasks."""
+from django.core.wsgi import get_wsgi_application
 import os
 import sys
-
+application = gunicorn mysite.wsgi
 
 def main():
     """Run administrative tasks."""
